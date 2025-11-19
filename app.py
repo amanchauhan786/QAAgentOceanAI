@@ -224,7 +224,7 @@ if st.session_state.test_cases:
         st.code(st.session_state.generated_code, language="python")
 
         st.markdown("---")
-        st.subheader("🚀 Execute Test")
+        st.subheader("🚀 Execute Test(It can run only in your pc -- Not supported on streamlit)")
 
         if st.button("Run Simulation Now"):
             with st.spinner("Running Selenium Test..."):
