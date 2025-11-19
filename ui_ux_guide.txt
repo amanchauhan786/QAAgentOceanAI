@@ -1,0 +1,15 @@
+UI/UX Guidelines for QA Testing
+
+1. Error Handling
+   - All error messages (e.g., invalid email, invalid coupon) must be displayed in RED text.
+   - The class name for error messages is usually 'error-text'.
+   - For email validation: If the input is missing an '@' or '.', display "Please enter a valid email address.".
+
+2. Success States
+   - Success messages (like applied discounts) must be displayed in GREEN text.
+   - The payment success message should replace the form visibility.
+
+3. Element Identifiers
+   - The main total price is located in the span id="total-price".
+   - The discount input is id="promo_code".
+   - The apply button is id="apply_btn".
