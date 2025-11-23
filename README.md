@@ -1,6 +1,6 @@
-# 🤖 Autonomous QA Agent
+# 🤖 Autonomous QA Agent   
 ### For Test Case and Selenium Script Generation
-
+[live demo](https://oceanai.streamlit.app/)
 ## 📋 Project Objective
 This project is an intelligent **Autonomous QA Agent** designed to construct a "testing brain" from project documentation. By ingesting product specifications, UI/UX guides, and target HTML structures, the system automatically:
 1.  **Generates Test Cases:** Creates comprehensive test plans grounded in documentation using RAG (Retrieval-Augmented Generation).
@@ -35,3 +35,4 @@ QA_Agent_Project/
     ├── checkout.html    # The target web application to test
     ├── product_specs.md # Business rules (Discounts, Shipping)
     └── ui_ux_guide.txt  # Design rules (Colors, Error messages)
+
